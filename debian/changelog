@@ -1,0 +1,6 @@
+python-kconfiglib (14.1.0-1) buster; urgency=low
+
+  * initial package
+  * source package automatically created by stdeb 0.8.5
+
+ -- Helmut Buchsbaum <helmut.buchsbaum@opensource.tttech-industrial.com>  Sun, 17 May 2020 16:28:33 +0200

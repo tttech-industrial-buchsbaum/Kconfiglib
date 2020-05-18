@@ -1,0 +1,4 @@
+# upstream does not provide a manpage
+python3-kconfiglib binary: binary-without-manpage
+python-kconfiglib binary: binary-without-manpage
+

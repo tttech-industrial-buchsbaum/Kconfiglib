@@ -1,0 +1,31 @@
+Source: python-kconfiglib
+Maintainer: Helmut Buchsbaum <helmut.buchsbaum@opensource.tttech-industrial.com>
+Section: python
+Priority: optional
+Build-Depends:
+ dh-python,
+ python3-setuptools,
+ python3-all,
+ debhelper (>= 11)
+Standards-Version: 4.3.0
+Homepage: https://github.com/ulfalizer/Kconfiglib
+Vcs-Browser: https://github.com/ulfalizer/Kconfiglib
+Vcs-Git: https://github.com/ulfalizer/Kconfiglib.git
+
+Package: python3-kconfiglib
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Flexible Python3 Kconfig implementation
+ Kconfiglib is a Kconfig implementation in Python 2/3. It started out as a
+ helper library, but now has a enough functionality to also work well as a
+ standalone Kconfig implementation (including terminal and GUI menuconfig
+ interfaces and Kconfig extensions).
+ .
+ The entire library is contained in kconfiglib.py. The bundled scripts are
+ implemented on top of it. Implementing your own scripts should be
+ relatively easy, if needed.
+ .
+ Kconfiglib is used exclusively by e.g. the Zephyr, esp-idf, and ACRN
+ projects. It is also used for many small helper scripts in various
+ projects.
+
